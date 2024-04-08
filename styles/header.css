@@ -1,0 +1,19 @@
+.header__loja {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  background-color: var(--cor-principal);
+}
+
+.input__loja {
+  background-image: url(../assets/lupa.svg);
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+  width: 50vw;
+  border-radius: 10px;
+  height: 4vh;
+  border: 0;
+  text-align: center;
+  padding: 5px;
+}

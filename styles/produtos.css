@@ -1,0 +1,48 @@
+.lançamentos__loja {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--laranja);
+  padding: 1em;
+  color: var(--branco);
+  text-transform: uppercase;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5em;
+  gap: 5em;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  padding: 10px;
+  background-color: var(--cor-principal);
+}
+
+.preco {
+  font-weight: bold;
+}
+
+.botao-carrinho {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.botao-carrinho:hover {
+  background-color: var(--cor-de-fundo);
+}
